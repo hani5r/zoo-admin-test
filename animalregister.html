@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<form method="post" action="saveRegistration.php" name="regForm">
+<h2 align="center">Animal Registration</h2><br>
+<table align="center" border="1">
+
+<tr>
+<th width="104">Name</td>
+<td width="350"><input type="text" name="adName" size="30"></td>
+</tr>
+<tr>
+<th width="104">Type</td>
+<td width="350"><input type="text" name="adContact" size="30"></td>
+</tr>
+<tr>
+<th width="104">Description</td>
+<td width="350"><input type="text" name="adEmail" size="30"></td>
+</tr>
+
+<tr>
+</tr>
+<tr>
+<th colspan="2"><div class="input-group-prepend">
+				    <span class="input-group-text">Upload Image</span>
+</div>
+                  
+				  <div class="custom-file">
+<input type="file" name="cover" class="custom-file-input" id="animImage" onchange="displayImg(this,$(this))"></td>
+</tr>
+
+<td width="104"><input type="submit" name="submitBtn" value="Submit"></td>
+<td width="350"><input type="reset" name="resetBtn" value="Clear"></td>
+</tr>
+</table>
+</form>
+
+				 <!-- </div>
+			</div> -->
+			<br>
+</body>
+</html>
